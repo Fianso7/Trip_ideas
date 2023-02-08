@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@drawable/img_6">
+    <TextView
+        android:id="@+id/welcom"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:background="#1A2B60"
+        android:gravity="center"
+        android:text="Select Your Activity"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="220sp"
+        android:layout_below="@id/welcom"
+        android:text="Many of us would enjoy getting outside and escaping our day-to-day . But where do you start? Try out one of these activities, and you're bound to find a new outdoor hobby to help you enjoy nature on your next vacation."
+        android:textStyle="bold"
+        android:textColor="#0E0E0E"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        />
+    <TextView
+        android:id="@+id/bike"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="BIKING"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#0F1B60"
+        android:layout_below="@+id/welcom"
+        android:layout_toLeftOf="@+id/mountain"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="240dp"
+        />
+    <TextView
+        android:id="@+id/mountain"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="HIKING"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#0F1B60"
+        android:gravity="center"
+        android:layout_below="@+id/welcom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="245dp"/>
+    <TextView
+        android:id="@+id/camping"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="CAMPING"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#0F1B60"
+        android:layout_below="@+id/welcom"
+        android:layout_toRightOf="@+id/mountain"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="240dp"/>
+
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="136dp"
+        android:layout_height="373dp"
+        android:layout_below="@+id/welcom"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="278dp"
+        android:layout_marginBottom="20sp"
+        android:scaleType="center"
+        android:src="@drawable/img" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="126dp"
+        android:layout_height="381dp"
+        android:layout_below="@+id/welcom"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginBottom="20sp"
+        android:layout_toLeftOf="@+id/image1"
+        android:scaleType="center"
+        android:src="@drawable/img_1" />
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="114dp"
+        android:layout_height="383dp"
+        android:layout_below="@+id/welcom"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="268dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20sp"
+        android:layout_toRightOf="@+id/image1"
+        android:scaleType="center"
+        android:src="@drawable/img_2" />
+
+
+</RelativeLayout>
+
+
+
+
